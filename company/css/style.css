@@ -1,0 +1,93 @@
+/*
+Wakeel Project v1.0.0 (http://utsexperts.com)
+Copyright 2020 UTS Experts and MUY
+Licensed under UTS Experts License Incorported with MUY
+*/
+/* Custom Fonts */
+html, body {
+  height: 100%;
+}
+@font-face {
+  font-family: gothic;
+  src: url(../fonts/GOTHIC.TTF);
+  font-weight: bold;
+}
+.navbar-top {
+    background: #44b2bd;
+    font-family: gothic;
+    font-size: 14px;
+    color: white;
+}
+a.navbar-top-content {
+    color: white;
+}
+.nav-bottom-area {
+    background-image: url(../img/hero-1-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.nav-link{
+	font-family: gothic;
+    font-weight: bold;
+}
+.front-bold{
+	background-color: black;
+    opacity: 0.6;
+    color: white;
+    margin-top: 5%;
+    border-radius: 13px;
+}
+.front-bold-second{
+	margin-top: 60%;
+}
+.landing-front-text{
+	font-family: gothic;
+	font-weight: bold;
+	font-size: 60px;
+}
+.footer-content{
+	background: #44b2bd;
+	font-family: gothic;
+}
+a.footer-content{
+	color: white;
+}
+a.footer-copy-text-link{
+	color: white;
+}
+a.sgn-link{
+	color: white;
+	font-family: gothic;
+	font-weight: bold;
+	background-color: #3f4247;
+	border-radius: 7px;
+	font-size: 25px;
+}
+/*Mobile Size 500px*/
+@media screen and (max-width: 500px) {
+	.front-bold{
+    margin-top: 0;
+}
+.front-bold-second{
+	margin-top: 0;
+}
+}
+/*Mobile Size 768px*/
+@media screen and (max-width: 768px) {
+	.front-bold{
+    margin-top: 0;
+}
+.front-bold-second{
+	margin-top: 0;
+}
+}
+
+.login-form-outer {
+    background-color: #262626;
+    border-radius: 20px;
+}
+.log-table{
+    background-color: black;
+    border-radius: 13px;
+}
